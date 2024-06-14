@@ -8,7 +8,7 @@ from deep_translator import GoogleTranslator
 
 
 def sendMessage(message, type):
-    token = 'EAACcosEiDGcBOZBZB0NYdX68j7TgXATeDNZAlKRe7hiD9awV0ZCIyjRl2eaAkAZBv3NxZBAfRlnLRn9hgW3HsZBREHv1QIZBAA4MomJ40IeDdFnGdEPwcvjv2F01rMSZCbFBYvF9Rct5ZCeqsZBzXhZBB89kycr0uXIIRS63hCrGOqRwoZBvGcq7tZCOnW6WkbAKrcn4z5MyYayZBYZBlBIo3UK2xZAnEWVAB6ApU'
+    token = 'EAACcosEiDGcBOxlZAWv77GqYOxGm49ZCh6g12yxrjmAWIdTuFXvmJXgmg3z5J2RVcuZBW5mst4tn6GXZCZCZBZCZBlDTgcKPCIuH5BHZCKZB96yYq9Ogku08CuZBCZB50eQiecNRi6oticJpfaYoDAZCHiCQLe7Ak377LTjjI0jTITEFeTeEomaZCcm43d1FsCNLzKCEMh1ggdPkkZCYbwsKFZBC'
     idNumeroTeléfono = '108450905597878'
     mensajeWa = WhatsApp(token, idNumeroTeléfono)
     if type == "text":
